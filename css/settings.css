@@ -1,0 +1,40 @@
+.mediavoice textarea {
+  resize: both;
+  width: 100%;
+  height: 260px;
+}
+.mediavoice textarea.disabled {
+  background: rgba(0,0,0,.02);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.mediavoice h4 {
+  margin-bottom: 2px;
+  display: inline;
+}
+.mediavoice input[type="checkbox"] {
+  margin: 1px 0 0 5px;
+}
+.mediavoice .settings-form-row {
+  padding-top: 5px;
+}
+.mediavoice-logo {
+  background: url(../images/polar.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 50px;
+  float: left;
+}
+.mediavoice h2 {
+  display: inline;
+  padding: 0;
+  margin: 0 0 0 12px;
+  line-height: 50px;
+}
+.mediavoice * {
+  font-family: "Helvetica", "Arial", "sans-serif";
+}
